@@ -1,0 +1,206 @@
+/**850px**/
+@media(max-width: 850px){
+
+/**NAVBAR**/
+.navbar{
+  padding: 0;
+  opacity: 0.9;
+} 
+.logo{
+  position: absolute;
+  top: 30px;
+  left: 30px;
+}
+.nav-links{
+  flex-direction: column;
+  width: 100%;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  margin-top: -1500px;
+  transition: 0.4s ease;
+}
+.nav-links li{
+  margin-top: 25px;
+  margin-bottom: 25px;
+  margin-right: 50px;
+}
+.mobile-menu{
+  margin-top: 0px;
+}
+.menu-btn{
+  display: block;
+}
+
+/**ABOUT**/
+.about{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+}
+.about-text{
+    width: 80%;
+    padding-right: 0px;
+}
+.about-text h2{
+    font-size: 5vmin;
+}
+.about-text p{
+    font-size: 15px;
+}
+.about-img{
+    margin-top: 12%;
+    width: 100%;
+}
+.btn1{
+    padding: 10px 22px;
+}
+
+/**CARDS**/
+.card-all{
+    width: 100%;
+    padding-top: 2%;
+    padding-bottom: 4%;
+  }
+  
+  .cards{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 30px;
+    padding-top: 2%;
+    padding-bottom: 5%;
+  }
+  .card1{
+    padding: 40px 20px;
+    width: 70%;
+  }
+  .card1 h1{
+      font-size: 8vmin;
+  }
+  .card2{
+    padding: 40px 20px;
+    width: 70%;
+  }
+  .card2 h1{
+    font-size: 8vmin;
+ }
+  .card3{
+    padding: 40px 20px;
+    width: 70%;
+  }
+  .card3 h1{
+    font-size: 8vmin;
+  }
+  .pull{
+    padding-bottom: 20px;
+    border-bottom: 2px black solid;
+  }
+  .push{
+    margin-bottom: 20%;
+  }
+  .card-btn{
+    padding: 12px 40px;
+  }
+  
+  .blast{
+    padding-top: 10px;
+    padding-bottom: 30px;
+  }
+  .last-btn{
+    font-size: 4vmin;
+    padding: 12px 35px;
+  }
+
+/**FOOTER**/  
+.footer-both{
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.left{
+  width: 50%;
+  align-items: center;
+}
+
+.formation .f-name{
+  width: 400px;
+}
+.formation .f-email{
+  width: 400px;
+}
+.formation .f-subject{
+  width: 400px;
+}
+.formation .f-message{
+  width: 400px;
+}
+.footer-last{
+  font-size: 15px;
+}
+
+}
+
+/**1350px**/
+@media(max-width: 1350px){
+.card1 h1{
+  font-size: 130%;
+}
+.card2 h1{
+  font-size: 130%;
+}
+.card3 h1{
+  font-size: 130%;
+}
+}
+
+/**450px**/
+@media(max-width: 450px){
+.formation .f-name{
+  width: 300px;
+}
+.formation .f-email{
+  width: 300px;
+}
+.formation .f-subject{
+  width: 300px;
+}
+.formation .f-message{
+  width: 300px;
+}
+}
+
+/**350px**/
+@media(max-width: 350px){
+.logo{
+  font-size: 20px;
+}
+.menu-btn{
+  width: 30px;
+}
+.nav-links li{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.left .icons img{
+  width: 25px;
+}
+
+.formation .f-name{
+  width: 240px;
+}
+.formation .f-email{
+  width: 240px;
+}
+.formation .f-subject{
+  width: 240px;
+}
+.formation .f-message{
+  width: 240px;
+}
+}

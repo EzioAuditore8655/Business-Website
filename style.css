@@ -1,0 +1,344 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/**NAVBAR**/
+.navbar{
+  background: white;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+  padding: 20px 0px;
+}
+.logo{
+  text-align: center;
+}
+.logo a{
+  color: black;
+  text-decoration: none;
+}
+.nav-links{
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+.nav-links li{
+  margin: 0px 20px;
+}
+.nav-links li a{
+  color: black;
+  text-decoration: none;
+}
+.nav-links li a:hover{
+  color: #777;
+}
+.btn{
+  background: pink;
+  padding: 10px 30px;
+  border: 1px pink solid;
+  border-radius: 20px;
+  cursor: pointer;
+}
+.btn:hover{
+  background: transparent;
+  color: black;
+  border: 1px black solid;
+  transition: 0.4s ease;
+}
+.menu-btn{
+  display: none;
+  position: absolute;
+  top: 40px;
+  right: 30px;
+  width: 40px;
+  cursor: pointer;
+}
+
+/**HEADER**/
+header{
+  width: 100%;
+  height: 100vh; 
+  background: url("bg-img.jpg")no-repeat center center/cover;
+  background-attachment: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.header-content{
+  padding: 0px 10px;
+  text-align: center;
+}
+.header-content h2{
+  font-size: 20px;
+}
+.header-content h1{
+  font-size: 15vmin;
+  line-height: 0rem;
+}
+.header-content p{
+  font-size: 20px;
+  line-height: 2rem;
+}
+.btn1{
+  color: white;
+  background: black;
+  text-decoration: none;
+  padding: 15px 30px;
+  border: 1px black solid;
+  line-height: 2rem;
+}
+.btn1:hover{
+  background: white;
+  color: black;
+  border: 1px black solid;
+  transition: 0.4s ease;
+}
+
+/**FIXED_BTN**/
+.chat{
+  font-size: 18px;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  text-decoration: none;
+  color: white;
+  background: black;
+  outline: none;
+  padding: 20px 30px;
+  cursor: pointer;
+}
+.chat:hover{
+  color: black;
+  background: white;
+  padding: 25px 35px;
+  text-decoration: underline;
+  transition: 0.5s ease;
+}
+
+/** ABOUT **/
+.about{
+  width: 100%;
+  background: white; 
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+}
+.about-text{
+  width: 30%;
+  padding-right: 80px;
+  text-align: start;
+}
+.about-text h1{
+  font-size: 6vmin;
+  font-weight: bold;
+}
+.about-text p{
+  color: #444;
+  font-size: 18px;
+  line-height: 2rem;
+}
+.about-img{
+  width: 50%;
+}
+.about-img img{
+  width: 100%;
+}
+
+/** Cards**/ 
+.card-all{
+  width: 100%;
+  padding-top: 2%;
+  padding-bottom: 4%;
+}
+.card-head h2{
+  text-align: center;
+}
+.card-head h1{
+  text-align: center;
+  font-size: 6vmin;
+  font-weight: bold;
+}
+
+.cards{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-align: center;
+  gap: 30px;
+  padding-top: 2%;
+  padding-bottom: 5%;
+}
+.card1{
+  border: 8px black solid;
+  padding: 40px 20px;
+  width: 17%;
+}
+.card1 h1{
+  font-size: 200%;
+}
+.card2{
+  border: 8px black solid;
+  padding: 40px 20px;
+  width: 17%;
+}
+.card3{
+  border: 8px black solid;
+  padding: 40px 20px;
+  width: 17%;
+}
+.pull{
+  padding-bottom: 20px;
+  border-bottom: 2px black solid;
+}
+.push{
+  margin-bottom: 30%;
+}
+.card-btn{
+  color: white;
+  background: black;
+  text-decoration: none;
+  padding: 12px 40px;
+  border: 1px black solid;
+}
+.card-btn:hover{
+  background: transparent;
+  color: black;
+  border: 1px black solid;
+  transition: 0.4s ease;
+}
+
+.blast{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.service-btn{
+  color: white;
+  background: black;
+  text-decoration: none;
+  padding: 15px 30px;
+  border: 1px black solid;
+  cursor: pointer;
+}
+.service-btn:hover{
+  background: transparent;
+  color: black;
+  border: 1px black solid;
+  transition: 0.4s ease;
+}
+
+/** FOOTER**/
+.footer{
+  width: 100%;
+  background: rgb(87,187,191);
+}
+.footer-both{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding: 50px 0px;
+  border-bottom: 1px black solid;
+}
+
+.left{
+  width: 20%;
+}
+.left h1{
+  font-size: 25px;
+}
+.left .icons img{
+  width: 28px;
+  margin: 5px;
+}
+.special{
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.right{
+  padding-top: 2%;
+}
+.formation label{
+  font-size: 18px;
+}
+.formation .f-name{
+  font-size: 16px;
+  margin-top: 10px;
+  padding: 0px 10px;
+  width: 450px;
+  height: 32px;
+  outline: none;
+  border: 2px black solid;
+  background: transparent;
+}
+.formation .f-name:hover{
+  border: 2px white solid;
+}
+.formation .f-email{
+  font-size: 16px;
+  margin-top: 10px;
+  padding: 0px 10px;
+  width: 450px;
+  height: 32px;
+  outline: none;
+  border: 2px black solid;
+  background: transparent;
+}
+.formation .f-email:hover{
+  border: 2px white solid;
+}
+.formation .f-subject{
+  font-size: 16px;
+  margin-top: 10px;
+  padding: 0px 10px;
+  width: 450px;
+  height: 32px;
+  outline: none;
+  border: 2px black solid;
+  background: transparent;
+}
+.formation .f-subject:hover{
+  border: 2px white solid;
+}
+.formation .f-message{
+  font-size: 16px;
+  margin-top: 10px;
+  padding: 0px 10px;
+  width: 450px;
+  height: 120px;
+  outline: none;
+  border: 2px black solid;
+  background: transparent;
+}
+.formation .f-message:hover{
+  border: 2px white solid;
+}
+
+.form-btn{
+  font-size: 15px;
+  color: white;
+  background: black;
+  text-decoration: none;
+  padding: 12px 40px;
+  border: 1px black solid;
+  cursor: pointer;
+}
+.form-btn:hover{
+  background: white;
+  color: black;
+  border: 1px black solid;
+  transition: 0.4s ease;
+}
+.footer-last{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 20px;
+}
